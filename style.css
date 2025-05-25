@@ -1,1 +1,114 @@
-/* Add you CSS here */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff5f7;
+  color: #333;
+}
+
+nav {
+  background-color: #8e4e5d;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('hero-background.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 6em 1em;
+  color: white;
+  position: relative;
+}
+
+.hero-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 auto 1em auto;
+  background-image: url('profile.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+}
+
+.section {
+  padding: 4em 2em;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  color: #8e4e5d;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 2em;
+  color: #5a3b44;
+}
+
+.icons-row {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  margin-top: 1.5em;
+}
+
+.icons-row div {
+  text-align: center;
+}
+
+.icons-row i {
+  font-size: 2em;
+  color: #8e4e5d;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.6em;
+}
+
+dl dt {
+  font-weight: bold;
+  margin-top: 1em;
+  color: #5a3b44;
+}
+
+ul {
+  padding-left: 1.5em;
+}
+
+footer {
+  background-color: #8e4e5d;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  .icons-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
